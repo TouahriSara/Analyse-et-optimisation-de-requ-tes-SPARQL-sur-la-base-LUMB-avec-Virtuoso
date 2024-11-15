@@ -1,0 +1,44 @@
+[
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3AGraduateStudent+.+%3FX+ub%3AtakesCourse+http%3A%2F%2Fwww.Department0.University0.edu%2FGraduateCourse0%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX%2C+%3FY%2C+%3FZ+WHERE+%7B%3FX+rdf%3Atype+ub%3AGraduateStudent+.+%3FY+rdf%3Atype+ub%3AUniversity+.+%3FZ+rdf%3Atype+ub%3ADepartment+.+%3FX+ub%3AmemberOf+%3FZ+.+%3FZ+ub%3AsubOrganizationOf+%3FY+.+%3FX+ub%3AundergraduateDegreeFrom+%3FY%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3APublication+.+%3FX+ub%3ApublicationAuthor+http%3A%2F%2Fwww.Department0.University0.edu%2FAssistantProfessor0%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX%2C+%3FY1%2C+%3FY2%2C+%3FY3+WHERE+%7B%3FX+rdf%3Atype+ub%3AProfessor+.+%3FX+ub%3AworksFor+%3Chttp%3A%2F%2Fwww.Department0.University0.edu%3E+.+%3FX+ub%3Aname+%3FY1+.+%3FX+ub%3AemailAddress+%3FY2+.+%3FX+ub%3Atelephone+%3FY3%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3APerson+.+%3FX+ub%3AmemberOf+%3Chttp%3A%2F%2Fwww.Department0.University0.edu%3E%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3AStudent%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX%2C+%3FY+WHERE+%7B%3FX+rdf%3Atype+ub%3AStudent+.+%3FY+rdf%3Atype+ub%3ACourse+.+%3FX+ub%3AtakesCourse+%3FY+.+%3Chttp%3A%2F%2Fwww.Department0.University0.edu%2FAssociateProfessor0%3E%2C+ub%3AteacherOf%2C+%3FY%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX%2C+%3FY%2C+%3FZ+WHERE+%7B%3FX+rdf%3Atype+ub%3AStudent+.+%3FY+rdf%3Atype+ub%3ADepartment+.+%3FX+ub%3AmemberOf+%3FY+.+%3FY+ub%3AsubOrganizationOf+%3Chttp%3A%2F%2Fwww.University0.edu%3E+.+%3FX+ub%3AemailAddress+%3FZ%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX%2C+%3FY%2C+%3FZ+WHERE+%7B%3FX+rdf%3Atype+ub%3AStudent+.+%3FY+rdf%3Atype+ub%3AFaculty+.+%3FZ+rdf%3Atype+ub%3ACourse+.+%3FX+ub%3Aadvisor+%3FY+.+%3FY+ub%3AteacherOf+%3FZ+.+%3FX+ub%3AtakesCourse+%3FZ%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3AStudent+.+%3FX+ub%3AtakesCourse+%3Chttp%3A%2F%2Fwww.Department0.University0.edu%2FGraduateCourse0%3E%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3AResearchGroup+.+%3FX+ub%3AsubOrganizationOf+%3Chttp%3A%2F%2Fwww.University0.edu%3E%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX%2C+%3FY+WHERE+%7B%3FX+rdf%3Atype+ub%3AChair+.+%3FY+rdf%3Atype+ub%3ADepartment+.+%3FX+ub%3AworksFor+%3FY+.+%3FY+ub%3AsubOrganizationOf+%3Chttp%3A%2F%2Fwww.University0.edu%3E%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3APerson+.+%3Chttp%3A%2F%2Fwww.University0.edu%3E+ub%3AhasAlumnus+%3FX%7D&format=json"
+    },
+    {
+        "error": "400 Client Error: Bad Request for url: http://localhost:8890/sparql?query=SELECT+%3FX+WHERE+%7B%3FX+rdf%3Atype+ub%3AUndergraduateStudent%7D&format=json"
+    }
+]
